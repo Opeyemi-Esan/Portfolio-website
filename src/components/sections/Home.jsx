@@ -8,7 +8,7 @@ export const Home = () => {
         <section id="home" className="relative min-h-screen flex items-center justify-center bg-[url('https://thumbs.dreamstime.com/b/javascript-web-developer-blue-illustration-react-node-angular-bootstrap-jquery-php-368566688.jpg?w=992')] bg-cover bg-center">
             <div className="absolute inset-0 bg-black/90 backdrop-blur-sm"></div>
             <div className="text-center z-10 px-4">
-                <h1 className="text-4xl md:text-7xl font-bold pb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent lead-right">
+                <h1 className="text-4xl md:text-7xl font-bold pb-8 gradient-text">
                     Hello, I'm Opeyemi Esan
                 </h1>
 

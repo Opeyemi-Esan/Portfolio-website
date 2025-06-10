@@ -3,6 +3,7 @@ import './index.css';
 import { LoadingScreen } from './components/LoadingScreen';
 import { useState } from 'react';
 import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
 import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
@@ -26,6 +27,7 @@ function App() {
         <About /> 
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </>
   );

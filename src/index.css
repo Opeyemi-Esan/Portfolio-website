@@ -46,3 +46,11 @@ html, body {
 .scrollbar-hidden::-webkit-scrollbar {
   display: none; 
 }
+
+.gradient-text {
+  background: linear-gradient(to right, #3b82f6, #7c3aed); /* from-blue-500 to-purple-600 */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* Optional: add other styles like font size, weight, etc. */
+}

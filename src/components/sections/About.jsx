@@ -64,7 +64,7 @@ export const About = () => {
         bg-[url('https://thumbs.dreamstime.com/b/skilled-front-end-developer-optimizing-websites-modern-coding-standards-professional-space-generated-ai-352206618.jpg?w=992')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/92 backdrop-blur-xl"></div>
           <div className="max-w-3xl md:max-w-5xl mx-auto px-4 z-10">
-              <h1 className='text-3xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent lead-right font-bold mb-10 text-center'
+              <h1 className='text-3xl gradient-text font-bold mb-10 text-center'
               >About Me</h1>
 
               <div className="rounded-lg md:border border-white/10 md:p-8 flex flex-col gap-10 md:gap-4">
