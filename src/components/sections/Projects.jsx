@@ -18,7 +18,7 @@ export const Projects = () => {
         {
             title: "Admin Panel",
             description: "Built and maintained a real estate admin web application that enables company staff to securely log in and perform full CRUD operations on property listings. The admin panel allows uploading, reading, updating, and deleting property data, which syncs directly with the client-facing website. The backend, developed using the .NET Framework, handles business logic, API services, and data management. SQL was used for robust and efficient database operations. The system ensures real-time content updates, keeping the platform dynamic and current.",
-            link: "https://mercylandgroup.com",
+            link: "https://admin.mercylandgroup.com",
             technology: ".Net 8 and React.Js"
         },
         {
@@ -30,7 +30,7 @@ export const Projects = () => {
         {
             title: "Banking App",
             description: "The Banking App backend enables core financial operations through a secure and efficient API. Users can create new bank accounts by submitting personal details and an initial deposit, with the system generating a unique account number. Key features include transferring funds between accounts with validation and balance checks, and depositing funds with real-time balance updates and transaction logging. All data is securely stored and managed in a database, ensuring accuracy and traceability of financial records.",
-            link: "https://github.com/Opeyemi-Esan",
+            link: "https://github.com/Opeyemi-Esan/Banking-App",
             technology: ".Net 8"
         },
         {
