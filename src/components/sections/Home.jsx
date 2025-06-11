@@ -11,7 +11,7 @@ export const Home = () => {
     
 
     return(
-        <section id="home" className="relative min-h-screen flex items-center justify-center gap-20 bg-[url('https://thumbs.dreamstime.com/b/javascript-web-developer-blue-illustration-react-node-angular-bootstrap-jquery-php-368566688.jpg?w=992')] bg-cover bg-center">
+        <section id="home" className="relative min-h-screen py-20 flex items-center justify-center gap-20 bg-[url('https://thumbs.dreamstime.com/b/javascript-web-developer-blue-illustration-react-node-angular-bootstrap-jquery-php-368566688.jpg?w=992')] bg-cover bg-center">
             <div className="absolute inset-0 bg-black/90 backdrop-blur-sm"></div>
             <div className="z-10 px-4 flex flex-col md:flex-row gap-10 items-center">
                 <div>
