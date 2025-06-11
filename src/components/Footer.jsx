@@ -7,7 +7,7 @@ import { LiaLinkedin } from 'react-icons/lia'
 export const Footer = () => {
   return (
     <div className='min-h-50 bg-gray-950 flex flex-col justify-center items-center gap-8 border-t border-t-white/10'>
-        <div className='flex flex-row gap-8 justify-center items-center'> 
+        <div className='flex flex-row gap-6 justify-center items-center'> 
             <a href='https://www.facebook.com/share/18ntisYfzt/?mibextid=wwXIfr' target='_blank' className='text-gray-400 text-lg cursor-pointer hover:text-blue-500/40 active:text-500/50'><FaFacebook /></a>
             <a href='https://www.instagram.com/_otanx?igsh=MWFpajRxOW9pMG05&utm_source=qr' target='_blank' className='text-gray-400 text-lg cursor-pointer hover:text-blue-500/40 active:text-500/50'><BsInstagram /></a>
             <a href='https://www.threads.com/@_otanx?igshid=NTc4MTIwNjQ2YQ==' target='_blank' className='text-gray-400 text-lg cursor-pointer hover:text-blue-500/40 active:text-500/50'><BsThreads /></a>
@@ -17,7 +17,7 @@ export const Footer = () => {
             <a href='https://github.com/Opeyemi-Esan' target='_blank' className='text-gray-400 text-lg cursor-pointer hover:text-blue-500/40 active:text-500/50'><BsGithub /></a>
         </div>
 
-        <p className='text-gray-400'>&copy; 2025 Your Company Name. All rights reserved.</p>
+        <p className='text-gray-400'>&copy; {new Date().getFullYear()} Enop-Tech Solutions. All rights reserved.</p>
     </div>
   )
 }

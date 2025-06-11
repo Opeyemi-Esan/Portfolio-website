@@ -56,14 +56,14 @@ export const Projects = () => {
     className="py-20 relative min-h-screen flex justify-center items-center  
         bg-[url('https://thumbs.dreamstime.com/b/skilled-front-end-developer-optimizing-websites-modern-coding-standards-professional-space-generated-ai-352206618.jpg?w=992')] bg-cover bg-center">x
         <div className="absolute inset-0 bg-black/92 backdrop-blur-xl"></div>
-        <div className='z-10 px-4 flex flex-col gap-10'>
+        <div className='z-10  flex flex-col gap-10'>
             <h1 className='text-3xl md:text-4xl font-bold gradient-text pb-6  text-center'>My Projects</h1>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 {myProjects.map((project, index)=>(
                     <div key={index}
                     onClick={()=>handleLink(project.link)} 
-                    className='bg-blue-500/10 rounded-xl flex flex-col gap-4 justify-center items-center py-8 px-8 md:px-10 hover:bg-blue-500/20 hover:translate-y-1 max-w-xl md:min-h-80 cursor-pointer transition-all duration-300'>
+                    className='bg-blue-500/10 rounded-xl flex flex-col gap-4 justify-center items-center py-8 px-4 md:px-10 hover:bg-blue-500/20 hover:translate-y-1 max-w-xl md:min-h-80 cursor-pointer transition-all duration-300'>
                         <h1 className='font-bold text-xl text-center text-gray-300'>{project.title}</h1>
                         <h3 className='font-bold text-lg text-blue-500 italic'>{project.technology}</h3>
                         <p className='text-center text-gray-300'>{project.description}</p>

@@ -63,12 +63,12 @@ export const About = () => {
         className="relative min-h-screen py-20 flex justify-center items-center  
         bg-[url('https://thumbs.dreamstime.com/b/skilled-front-end-developer-optimizing-websites-modern-coding-standards-professional-space-generated-ai-352206618.jpg?w=992')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/92 backdrop-blur-xl"></div>
-          <div className="max-w-3xl md:max-w-5xl mx-auto px-4 z-10">
+          <div className="max-w-3xl md:max-w-5xl mx-auto px-2 z-10">
               <h1 className='text-3xl gradient-text font-bold mb-10 text-center'
               >About Me</h1>
 
               <div className="rounded-lg md:border border-white/10 md:p-8 flex flex-col gap-10 md:gap-4">
-                <p className="mb-4 text-center">I am a full stack developer with 4 years of experience building responsive, dynamic and RESTful API using React.js and ASP.NET technologies.</p>
+                <p className="about-me mb-4 text-center text-xl bg-blue-500/20 rounded-xl p-10">I am a full stack developer with 4 years of experience building responsive, dynamic and RESTful API using React.js and ASP.NET technologies.</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="rounded-xl p-6 border border-white/10">
