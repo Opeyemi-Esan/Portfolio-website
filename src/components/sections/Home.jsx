@@ -45,7 +45,7 @@ export const Home = () => {
                 </div>
 
                 <div className='home-image'>
-                    <div className="image-box shadow-[0_0_10px_4px_rgba(140,90,255,0.75)]">
+                    <div className="image-box">
                         <div className="image-item">
                             <img src={ProfileImage} alt=''/>
                         </div>

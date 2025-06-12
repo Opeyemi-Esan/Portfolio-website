@@ -66,6 +66,7 @@ html, body {
   background: conic-gradient(transparent, transparent, transparent, rgb(7, 60, 173));
   transform: rotate(0deg);
   animation: rotate-border 10s infinite;
+  @apply shadow-[0_0_20px_8px_rgba(59,130,246,0.75)]
 }
 
 @keyframes rotate-border{
@@ -98,7 +99,7 @@ html, body {
   mix-blend-mode: lighten;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 640px) {
   .home-image .image-box {
     position: relative;
     width: 32vw;
@@ -153,19 +154,24 @@ html, body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    animation:glow-anim 0.8s infinite ease-in-out;
+    animation: glow-anim 0.8s infinite ease-in-out;
   }
 
   .home-image .image-box .image-item img {
-  height: 100%;
-  top: 50px;
-  position: absolute;
-  display: block;
-  width: 85%;
-  object-fit: cover;
-  scale: 1.2;
-  mix-blend-mode: lighten;
-}
+    height: 100%;
+    top: 50px;
+    position: absolute;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+    scale: 1.2;
+    mix-blend-mode: lighten;
+  }
+
+  .home-image .image-box::before,
+  .home-image .image-box::after {
+    display: none;
+  }
 }
 
 
