@@ -66,7 +66,7 @@ export const Projects = () => {
                     className='bg-blue-500/10 rounded-xl flex flex-col gap-4 justify-center items-center py-8 px-4 md:px-10 hover:bg-blue-500/20 hover:translate-y-1 max-w-xl md:min-h-80 cursor-pointer transition-all duration-300'>
                         <h1 className='font-bold text-xl text-center text-gray-300'>{project.title}</h1>
                         <h3 className='font-bold text-lg text-blue-500 italic'>{project.technology}</h3>
-                        <p className='text-gray-300 text-justify'>{project.description}</p>
+                        <p className='text-gray-300 text-center'>{project.description}</p>
                     </div>
                 ))}
             </div>
