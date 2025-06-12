@@ -106,7 +106,7 @@ export const Contact = () => {
                 >Send Message</button>
                 {showModal && 
                 <div onClick={toggle} className='fixed inset-0 bg-black/40 flex items-center justify-center z-50 backdrop-blur-lg'>
-                  <p className={`min-w-[400px] md:min-w-lg min-h-50 flex justify-center items-center bg-blue-500/20 text-xl text-center backdrop-blur-2xl font-bold text-gray-400 border border-blue-500/30 p-6 rounded-xl shadow-xl transform transition-transform duration-800 ${
+                  <p className={`min-w-[300px] md:min-w-lg min-h-40 md:min-h-50 flex justify-center items-center bg-blue-500/20 text-xl text-center backdrop-blur-2xl font-bold text-gray-400 border border-blue-500/30 p-8 rounded-xl shadow-xl transform transition-transform duration-800 ${
                                   isOpen
                                     ? 'translate-y-0 opacity-100'
                                     : 'translate-y-20 opacity-0'
