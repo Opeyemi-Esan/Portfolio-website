@@ -4,7 +4,7 @@ import { TiTimes } from "react-icons/ti";
 export const MobileMenu = ({openMenu, setOpenMenu}) => {
 
     return (
-        <div className={`fixed top-0 left-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-sm flex flex-col items-center justify-center transition-all duration-300 ease-in-out
+        <div className={`fixed top-0 left-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-300 ease-in-out
                         ${openMenu ? "h-screen opacity-100 pointer-events-auto" : "h-0 opacity-0 pointer-events-none"}
                         `}>
             <button onClick={() => setOpenMenu(false)} className="absolute top-3 right-8 text-gray-400 hover:text-gray-300 text-3xl focus:outline-none cursor-pointer" aria-label="Close Menu">
